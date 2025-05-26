@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 import TypingEffectText from '../components/TypingEffectText';
 import ParticlesBackground from '../components/ParticlesBackground';
-import HomePic from '../assets/Images/HomePic.png';
+import HomePic from '../assets/Images/HomePIc.png';
 
 export default function Home() {
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.3 });
