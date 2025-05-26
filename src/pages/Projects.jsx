@@ -19,12 +19,12 @@ import Weather3 from '../assets/Images/WeatherApp3.png';
 import Weather4 from '../assets/Images/WeatherApp4.png';
 import Weather5 from '../assets/Images/WeatherApp5.png';
 
-import TicTacToe0 from '../assets/Images/Tic-Tac-Toe.png';
-import TicTacToe1 from '../assets/Images/Tic-Tac-Toe1.png';
-import TicTacToe2 from '../assets/Images/Tic-Tac-Toe2.png';
-import TicTacToe3 from '../assets/Images/Tic-Tac-Toe3.png';
-import TicTacToe4 from '../assets/Images/Tic-Tac-Toe4.png';
-import TicTacToe5 from '../assets/Images/Tic-Tac-Toe5.png';
+import TicTacToe0 from '../assets/Images/TIc-Tac-Toe.png';
+import TicTacToe1 from '../assets/Images/TIc-Tac-Toe1.png';
+import TicTacToe2 from '../assets/Images/TIc-Tac-Toe2.png';
+import TicTacToe3 from '../assets/Images/TIc-Tac-Toe3.png';
+import TicTacToe4 from '../assets/Images/TIc-Tac-Toe4.png';
+import TicTacToe5 from '../assets/Images/TIc-Tac-Toe5.png';
 
 import Profile0 from '../assets/Images/Portfolio.png';
 import Profile1 from '../assets/Images/Portfolio1.png';
