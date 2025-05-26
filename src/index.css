@@ -1,0 +1,98 @@
+/* Optional: Custom font import - MUST BE AT THE VERY TOP */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Inter font and smooth scrolling globally */
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Ensure a smooth transition for background and text colors when toggling dark mode */
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Global styles for light mode */
+body {
+  background-color: #f7fafc; /* A very light gray background */
+  color: #1a202c; /* Dark text for light mode */
+  line-height: 1.6;
+}
+
+/* Global styles for dark mode */
+.dark body {
+  background-color: #1a202c; /* Dark background */
+  color: #e2e8f0; /* Light text for dark mode */
+}
+
+/* Improve focus states for accessibility */
+*:focus {
+  outline: 2px solid #3b82f6; /* Blue outline */
+  outline-offset: 2px; /* Offset the outline from the element */
+  border-radius: 4px; /* Match element border-radius */
+}
+
+/* Custom scrollbar for better aesthetics */
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 0px; /* Set width to 0 to hide it */
+  height: 0px; /* Set height to 0 to hide it */
+}
+
+/* You can keep the track and thumb styles if you want them to be present but invisible,
+   or remove them entirely if you want no scrollbar space at all.
+   Setting width/height to 0 is usually sufficient to hide it. */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dark::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.dark::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+.dark::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+/* For Firefox (requires 'scrollbar-width' and 'scrollbar-color') */
+/* Note: These are not standard and may not work in all browsers */
+.custom-scrollbar {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+/* Hide scrollbar for IE/Edge (requires '-ms-overflow-style') */
+.custom-scrollbar {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}
+
+
+/* Custom text selection styling */
+::selection {
+  background-color: #3b82f6; /* Blue background for selected text */
+  color: #ffffff; /* White text for selected text */
+}
+
+/* Basic link styling (can be overridden by Tailwind classes) */
+a {
+  text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
